@@ -1,0 +1,119 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angela's Materials Informatics Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9fafb;
+      color: #111827;
+    }
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .project {
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .project h2 {
+      margin-top: 0;
+    }
+    .project img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Angela's Materials Informatics Portfolio</h1>
+    <p>Accelerating sustainable innovation through data-driven science</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#about">About</a>
+      <a href="resume.pdf">Resume</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2>📁 Featured Projects</h2>
+
+      <div class="project">
+        <h2>ThermoML Parser</h2>
+        <p>Parsed 1,200+ XML files to extract structured thermophysical data for ML-ready analysis. Designed CLI tools and uncertainty handling using modern Python.</p>
+        <img src="assets/plots/thermoml_summary.png" alt="ThermoML plot example">
+        <p>
+          🔗 <a href="https://github.com/yourusername/thermoml-parser">GitHub Repo</a> ·
+          📄 <a href="assets/pdfs/thermoml_summary.pdf">PDF Summary</a>
+        </p>
+      </div>
+
+      <div class="project">
+        <h2>Thermal Conductivity ML Model</h2>
+        <p>Used matminer to featurize materials from multiple datasets. Trained ensemble models achieving R² > 0.85 with interpretability via SHAP plots.</p>
+        <img src="assets/plots/conductivity_shap.png" alt="SHAP plot">
+        <p>
+          🔗 <a href="https://github.com/yourusername/conductivity-ml">GitHub Repo</a> ·
+          🚀 <a href="https://yourusername-streamlit-app.streamlit.app">Interactive Dashboard</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="publications">
+    <h2>📚 Selected Publications</h2>
+    <p>I’ve co-authored peer-reviewed publications in <em>Scientific Reports</em>, <em>ASHRAE Journal</em>, <em>Journal of Applied Microbiology</em>, and <em>SAMPE Conference Proceedings</em>. These span aerosol modeling, materials testing, and surface engineering.</p>
+    <p><a href="publications.html">View full publication summaries →</a></p>
+    </section>
+
+
+    <section id="about">
+      <h2>👩‍🔬 About Me</h2>
+      <p>
+        I'm a materials scientist and data engineer with a background in sustainable coatings, advanced polymers, and scientific tooling. I specialize in transforming messy scientific data into clean, machine-learnable formats and building interpretable models to drive environmental impact.
+      </p>
+      <p>
+        Tools I love: Python · Pandas · Matminer · Streamlit · XML · ThermoML · Git · LaTeX
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Angela • <a href="mailto:your@email.com">Contact</a> • <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a>
+  </footer>
+</body>
+</html>
