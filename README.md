@@ -1,4 +1,4 @@
-# 🧪 Angela Davis – Materials Informatics Portfolio
+# Angela Davis – Materials Informatics Portfolio
 
 Welcome to my open-source portfolio site, built to highlight technical projects, machine learning pipelines, and scientific tooling at the intersection of materials science, sustainability, and data engineering.
 
@@ -6,7 +6,7 @@ Welcome to my open-source portfolio site, built to highlight technical projects,
 
 ---
 
-## 📁 Featured Projects
+## Featured Projects
 
 ### **ThermoML Parser**  
 Parsed 1,200+ ThermoML XML files to extract structured thermophysical property data (e.g., thermal conductivity) for machine learning workflows. Includes robust CLI, uncertainty handling, and FAIR-inspired data modeling.
@@ -22,16 +22,16 @@ Built a machine learning pipeline using Citrine + UCSB datasets. Applied matmine
 **New Dev Branch**:  
 I’m actively developing a side branch to explore:
 
-- 🧠 Deep learning with TensorFlow + PyTorch
-- 🐳 Dockerized training and deployment
-- 📊 ML experiment modularization
+- Deep learning with TensorFlow + PyTorch
+- Dockerized training and deployment
+- ML experiment modularization
 
 - [Main Repo](https://github.com/acfdavis/Thermal-Conductivity-ML)
 - [DL + Docker Branch](https://github.com/acfdavis/Thermal-Conductivity-ML/tree/feature/dl-tf-torch-docker)
 
 ---
 
-## 📚 Publications
+## Publications
 
 Co-author and data lead on peer-reviewed publications in:
 
@@ -40,11 +40,11 @@ Co-author and data lead on peer-reviewed publications in:
 - *Journal of Applied Microbiology* – SARS-CoV-2 inactivation on cabin materials
 - *SAMPE Proceedings* – Adhesion optimization for thermoplastic composites
 
-📄 [View Full Publication List →](publications.html)
+[View Full Publication List →](publications.html)
 
 ---
 
-## 👩‍🔬 About Me
+## About Me
 
 I’m a sustainability-focused R&D engineer with 13+ years of experience bridging data science, materials engineering, and technical leadership. I specialize in building reproducible scientific workflows and ML-ready datasets for physical systems.
 
@@ -56,7 +56,7 @@ I care deeply about:
 
 ---
 
-## 🚀 Getting Started (for developers)
+## Getting Started (for developers)
 
 You can clone this site to build your own data science or engineering portfolio:
 
